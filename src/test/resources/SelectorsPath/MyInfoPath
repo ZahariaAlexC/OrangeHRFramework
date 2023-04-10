@@ -1,0 +1,34 @@
+My Info Button: //span[text()='My Info']
+Personal Details Button: //a[text()='Personal Details']
+First Name Textbox: //input[@name='firstName']
+Middle NAme Textbox: //input[@name='middleName']
+Last Name Textbox: //input[@name='lastName']
+NickName: //label[text()='Nickname']
+Employee ID: //label[text()='Employee Id']
+Other ID: //label[text()='Other Id']
+Driver's License Number: //label[contains(text(), 'Driver')]
+License Expiry Date: //label[contains(text(), 'License Expiry Date')]
+License Expiry Date - calendar drop down list: //i[@class='oxd-icon bi-calendar oxd-date-input-icon']
+SSN Number: //label[contains(text(), 'SSN Number')]
+SIN Number: //label[contains(text(), 'SIN Number')]
+Nationality: //label[contains(text(), 'Nationality')]
+Marital Status: //label[contains(text(), 'Marital Status')]
+Date of Birth: //label[contains(text(), 'Date of Birth')]
+Date of Birth - calendar drop down list: //i[@class='oxd-icon bi-calendar oxd-date-input-icon']
+Gender: //label[contains(text(), 'Gender')]
+Gender radio button 'Male': //input[@value='1']
+Gender radio button 'Female'://input[@value='1']
+Military Service: //label[contains(text(), 'Military Service')]
+Smoker checkbox: //input[@type='checkbox']
+Blood type: //label[contains(text(), 'Blood Type')]
+Blood type drop down list: //div[contains(text(), 'Select')]
+Save button: //button[@type='submit']
+
+
+
+
+
+
+
+
+
