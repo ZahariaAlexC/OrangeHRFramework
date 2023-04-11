@@ -1,10 +1,13 @@
 My Info Button: //span[text()='My Info']
+----------------------------------------------------------------------------------
 Personal Details Button: //a[text()='Personal Details']
 First Name Textbox: //input[@name='firstName']
 Middle NAme Textbox: //input[@name='middleName']
 Last Name Textbox: //input[@name='lastName']
 NickName: //label[text()='Nickname']
-Employee ID: //label[text()='Employee Id']
+Employee ID - first name: //input[@name='firstName']
+Employee ID - middle name: //input[@name='middleName']
+Employee ID - last name: //input[@name='lastName']
 Other ID: //label[text()='Other Id']
 Driver's License Number: //label[contains(text(), 'Driver')]
 License Expiry Date: //label[contains(text(), 'License Expiry Date')]
@@ -23,6 +26,27 @@ Smoker checkbox: //input[@type='checkbox']
 Blood type: //label[contains(text(), 'Blood Type')]
 Blood type drop down list: //div[contains(text(), 'Select')]
 Save button: //button[@type='submit']
+Blood Type: //div[@class='oxd-select-text-input' and @tabindex='0']
+Blood Type dropdown list: //i[@class='oxd-icon bi-caret-down-fill oxd-select-text--arrow']
+Add button: //i[@class='oxd-icon bi-plus oxd-button-icon']
+------------------------------------------------------------------------------------
+Contact details button: //a[text()='Contact Details']
+Street 1: //input[@class='oxd-input oxd-input--active']
+Street 2: //input[@class='oxd-input oxd-input--active']
+City: //input[@class='oxd-input oxd-input--active']
+State/Province: //input[@class='oxd-input oxd-input--active']
+Zip/Postal Code: //input[@class='oxd-input oxd-input--active']
+Country: //div[@class='oxd-select-text-input' and @tabindex='0']
+Country dropdown list: //i[@class='oxd-icon bi-caret-down-fill oxd-select-text--arrow']
+Home: //input[@class='oxd-input oxd-input--active']
+Mobile: //input[@class='oxd-input oxd-input--active']
+Work: //input[@class='oxd-input oxd-input--active']
+Work email: //input[@class='oxd-input oxd-input--active']
+Other email: //input[@class='oxd-input oxd-input--active']
+Save button: //button[@type='submit']
+Add button: //i[@class='oxd-icon bi-plus oxd-button-icon']
+
+
 
 
 
