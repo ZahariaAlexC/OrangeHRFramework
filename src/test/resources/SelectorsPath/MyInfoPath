@@ -2,7 +2,7 @@ My Info Button: //span[text()='My Info']
 ----------------------------------------------------------------------------------
 Personal Details Button: //a[text()='Personal Details']
 First Name Textbox: //input[@name='firstName']
-Middle NAme Textbox: //input[@name='middleName']
+Middle Name Textbox: //input[@name='middleName']
 Last Name Textbox: //input[@name='lastName']
 NickName: //label[text()='Nickname']
 Employee ID - first name: //input[@name='firstName']
