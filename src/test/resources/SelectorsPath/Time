@@ -1,0 +1,45 @@
+Time module: //a[@class='oxd-main-menu-item active']
+top-bar body Time/Timesheets: //div[@class='oxd-topbar-body']
+top-bar body nav Time/Timesheets: //nav[@class='oxd-topbar-body-nav']
+Layout Time/Timesheets: //div[@class='oxd-layout-context']
+
+Time module/Select Employee
+Employee Name input data: //input[@placeholder='Type for hints...' ]
+View button: //button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']
+
+Timesheets
+Timesheets button: //span [@class='oxd-topbar-body-nav-tab-item']
+Down button: //i[@class='oxd-icon bi-chevron-down']
+Drop-down menu: //ul[@class='oxd-dropdown-menu']
+
+Timesheets/MyTimeshhet
+Calendar button Prev://button[@class ='oxd-icon-button orangehrm-timeperiod-icon --prev']
+Calendar button Next://button[@class ='oxd-icon-button orangehrm-timeperiod-icon --next']
+Timeperiod picker: //div[@class= 'orangehrm-timeperiod-picker']
+Calendar automat: //i[@class= 'oxd-icon bi-calendar oxd-date-input-icon']
+Calendar manual://div[@class='oxd-date-input']
+Edit button: //button[@class='oxd-button oxd-button--medium oxd-button--ghost']
+Edit Timesheet
+Name of Project: //input[@placeholder='Type for hints...' ]
+Drop-down Activity tabel: //div[@class='oxd-select-text-input']
+Select down text Arrow: //i[@class= 'oxd-icon bi-caret-down-fill oxd-select-text--arrow']
+Cancel button: //button[@class='oxd-button oxd-button--medium oxd-button--ghost']
+Reset button:
+Save button: //button[@class='oxd-button oxd-button--medium oxd-button--secondary']
+
+Timesheets/Select Employee
+Employee Name: //div[@class='oxd-autocomplete-text-input oxd-autocomplete-text-input--active']
+View button: //button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']
+
+
+Attendance
+Attendance button: //li[@class='oxd-topbar-body-nav-tab --parent']
+Drop-down menu: //ul[@class='oxd-dropdown-menu']
+
+
+
+Reports
+
+
+Project Info
+
