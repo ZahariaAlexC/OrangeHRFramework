@@ -36,7 +36,11 @@ Attendance
 Attendance button: //li[@class='oxd-topbar-body-nav-tab --parent']
 Drop-down menu: //ul[@class='oxd-dropdown-menu']
 
-
+Ad Employee
+//input[@ name='firstName']
+//input[@ name='middleName']
+//input[@ name='lastName']
+//div[@class='oxd-grid-2 orangehrm-full-width-grid']//input[@class='oxd-input oxd-input--active']
 
 Reports
 

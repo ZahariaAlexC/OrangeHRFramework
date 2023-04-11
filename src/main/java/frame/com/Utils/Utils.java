@@ -1,9 +1,10 @@
 package frame.com.Utils;
 
+
 import java.util.Random;
 
 public class Utils {
-    Random value = new Random();
+   Random value = new Random ();
 
     public String randomString() {
 
