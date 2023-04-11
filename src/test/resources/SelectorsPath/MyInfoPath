@@ -1,0 +1,58 @@
+My Info Button: //span[text()='My Info']
+----------------------------------------------------------------------------------
+Personal Details Button: //a[text()='Personal Details']
+First Name Textbox: //input[@name='firstName']
+Middle NAme Textbox: //input[@name='middleName']
+Last Name Textbox: //input[@name='lastName']
+NickName: //label[text()='Nickname']
+Employee ID - first name: //input[@name='firstName']
+Employee ID - middle name: //input[@name='middleName']
+Employee ID - last name: //input[@name='lastName']
+Other ID: //label[text()='Other Id']
+Driver's License Number: //label[contains(text(), 'Driver')]
+License Expiry Date: //label[contains(text(), 'License Expiry Date')]
+License Expiry Date - calendar drop down list: //i[@class='oxd-icon bi-calendar oxd-date-input-icon']
+SSN Number: //label[contains(text(), 'SSN Number')]
+SIN Number: //label[contains(text(), 'SIN Number')]
+Nationality: //label[contains(text(), 'Nationality')]
+Marital Status: //label[contains(text(), 'Marital Status')]
+Date of Birth: //label[contains(text(), 'Date of Birth')]
+Date of Birth - calendar drop down list: //i[@class='oxd-icon bi-calendar oxd-date-input-icon']
+Gender: //label[contains(text(), 'Gender')]
+Gender radio button 'Male': //input[@value='1']
+Gender radio button 'Female'://input[@value='1']
+Military Service: //label[contains(text(), 'Military Service')]
+Smoker checkbox: //input[@type='checkbox']
+Blood type: //label[contains(text(), 'Blood Type')]
+Blood type drop down list: //div[contains(text(), 'Select')]
+Save button: //button[@type='submit']
+Blood Type: //div[@class='oxd-select-text-input' and @tabindex='0']
+Blood Type dropdown list: //i[@class='oxd-icon bi-caret-down-fill oxd-select-text--arrow']
+Add button: //i[@class='oxd-icon bi-plus oxd-button-icon']
+------------------------------------------------------------------------------------
+Contact details button: //a[text()='Contact Details']
+Street 1: //input[@class='oxd-input oxd-input--active']
+Street 2: //input[@class='oxd-input oxd-input--active']
+City: //input[@class='oxd-input oxd-input--active']
+State/Province: //input[@class='oxd-input oxd-input--active']
+Zip/Postal Code: //input[@class='oxd-input oxd-input--active']
+Country: //div[@class='oxd-select-text-input' and @tabindex='0']
+Country dropdown list: //i[@class='oxd-icon bi-caret-down-fill oxd-select-text--arrow']
+Home: //input[@class='oxd-input oxd-input--active']
+Mobile: //input[@class='oxd-input oxd-input--active']
+Work: //input[@class='oxd-input oxd-input--active']
+Work email: //input[@class='oxd-input oxd-input--active']
+Other email: //input[@class='oxd-input oxd-input--active']
+Save button: //button[@type='submit']
+Add button: //i[@class='oxd-icon bi-plus oxd-button-icon']
+
+
+
+
+
+
+
+
+
+
+
