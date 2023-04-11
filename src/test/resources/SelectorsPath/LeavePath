@@ -1,0 +1,88 @@
+LEAVE button : //span[text()='Leave']
+
+APPLY : //a[contains(text(), 'Apply')]
+
+My LEAVE : //a[contains(text(), 'My Leave')]
+
+My Leave List-From Date: //label[contains(text(), 'From Date')]
+My Leave List- From Date Placeholder: //input[@placeholder= 'yyyy-mm-dd' ]
+
+My Leave List-To Date: //label[contains(text(), 'To Date')]
+My Leave List- To Date Placeholder://input[@placeholder= 'yyyy-mm-dd' ]
+
+My Leave List- Show Leave with Status : //label[contains(text(), 'Show Leave with Status')]
+My Leave List- Show Leave with Status-Select: //div[contains(text(), 'Select')]
+
+My Leave List- Leave Type ://label[contains(text(), 'Leave Type')]
+My Leave List- Leave Type-Select : //div[contains(text(), 'Select')]
+
+My Leave List- Rejected : //span[@class= 'oxd-chip oxd-chip--default oxd-multiselect-chips-selected']
+My Leave List- Canceled : bis
+My Leave List- Pending Approval : bis
+My Leave List- Scheduled : bis
+My Leave List- Taken : bis
+
+My Leave List- Required : //p[@class='oxd-text oxd-text--p orangehrm-form-hint']
+My Leave List- Reset Button : //button[@type='reset']
+My Leave List- Search Button ://button[@type='submit']
+
+Leave-Entitlements: //li[@class='oxd-topbar-body-nav-tab --parent --visited']
+Leave- Add Entitlements: //a[contains(text(), 'Add Entitlements')]
+
+Add Leave Entitlement-Individual Employee:
+Employee Name: //input[@placeholder= 'Type for hints...' ]
+
+Leave Type- Select: //div[contains(text(), '-- Select --') ]
+            Bereavement: //div[contains(text(), '- Bereavement') ]
+            CAN FMLA: //div[contains(text(), 'CAN - FMLA') ]
+            Maternitty: //div[contains(text(), 'CAN - Matternity')]
+            Personal: //div[contains(text(), 'CAN - Personal')]
+            Vacation: //div[contains(text(), 'CAN - Vacation')]
+Leave Period: //div[contains(text(), 'Select')]
+Leave Period 2020: //div[contains(text(), '2020-01-01 - 2020-12-31')]
+             2021: //div[contains(text(), '2021-01-01 - 2021-12-31')]
+             2022: //div[contains(text(), '2022-01-01 - 2022-12-31')]
+             2023: //div[contains(text(), '2023-01-01 - 2023-12-31')]
+             2024: //div[contains(text(), '2024-01-01 - 2024-12-31')]
+
+Entitlement: //input[@class='oxd-input oxd-input--active']          (Gasit 2din2)
+Cancel Button: //button[@type='button']                             (Gasit 2din2)
+Save button: //button[@type='submit']
+
+Leave- Employee Entitlements: //a[contains(text(), 'Employee Entitlements')]
+Leave Entitlements Button: //i[@class='oxd-icon bi-caret-down-fill']
+Employee name: //input[@placeholder= 'Type for hints...' ]
+
+Leave Type- Select: //div[contains(text(), '-- Select --') ]
+            Bereavement: //div[contains(text(), '- Bereavement') ]
+            CAN FMLA: //div[contains(text(), 'CAN - FMLA') ]
+            Maternitty: //div[contains(text(), 'CAN - Matternity')]
+            Personal: //div[contains(text(), 'CAN - Personal')]
+            Vacation: //div[contains(text(), 'CAN - Vacation')]
+Leave Period: //div[contains(text(), 'Select')]
+Leave Period 2020: //div[contains(text(), '2020-01-01 - 2020-12-31')]
+             2021: //div[contains(text(), '2021-01-01 - 2021-12-31')]
+             2022: //div[contains(text(), '2022-01-01 - 2022-12-31')]
+             2023: //div[contains(text(), '2023-01-01 - 2023-12-31')]
+             2024: //div[contains(text(), '2024-01-01 - 2024-12-31')]
+Search button: //button[@type='submit']
+
+
+Leave- My Entitlements: //a[contains(text(), 'My Entitlements')]
+Leave Type: //div[contains(text(), '-- Select --') ]
+Leave Period 2020: //div[contains(text(), '2020-01-01 - 2020-12-31')]
+             2021: //div[contains(text(), '2021-01-01 - 2021-12-31')]
+             2022: //div[contains(text(), '2022-01-01 - 2022-12-31')]
+             2023: //div[contains(text(), '2023-01-01 - 2023-12-31')]
+             2024: //div[contains(text(), '2024-01-01 - 2024-12-31')]
+Search button: //button[@type='submit']
+Add button: //button[text()=' Add ']
+
+
+
+
+
+
+
+
+
