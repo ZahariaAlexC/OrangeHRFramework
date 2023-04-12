@@ -10,8 +10,5 @@
         <module name="OrangeHRMFramework" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="OrangeHRFramework" target="1.7" />
-    </bytecodeTargetLevel>
   </component>
 </project>
