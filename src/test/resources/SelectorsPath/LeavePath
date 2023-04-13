@@ -4,6 +4,7 @@ APPLY : //a[contains(text(), 'Apply')]
 
 My LEAVE : //a[contains(text(), 'My Leave')]
 
+My Leave List Button: //div[contains(@class, 'oxd-table-filter-header') ]//button
 My Leave List-From Date: //label[contains(text(), 'From Date')]
 My Leave List- From Date Placeholder: //input[@placeholder= 'yyyy-mm-dd' ]
 
@@ -17,10 +18,10 @@ My Leave List- Leave Type ://label[contains(text(), 'Leave Type')]
 My Leave List- Leave Type-Select : //div[contains(text(), 'Select')]
 
 My Leave List- Rejected : //span[@class= 'oxd-chip oxd-chip--default oxd-multiselect-chips-selected']
-My Leave List- Canceled : bis
-My Leave List- Pending Approval : bis
-My Leave List- Scheduled : bis
-My Leave List- Taken : bis
+My Leave List- Canceled : //span[normalize-space()='Cancelled']
+My Leave List- Pending Approval : //span[normalize-space()='Pending Approval']
+My Leave List- Scheduled : //span[normalize-space()='Scheduled']
+My Leave List- Taken : //span[normalize-space()='Taken']
 
 My Leave List- Required : //p[@class='oxd-text oxd-text--p orangehrm-form-hint']
 My Leave List- Reset Button : //button[@type='reset']
@@ -50,7 +51,7 @@ Cancel Button: //button[@type='button']                             (Gasit 2din2
 Save button: //button[@type='submit']
 
 Leave- Employee Entitlements: //a[contains(text(), 'Employee Entitlements')]
-Leave Entitlements Button: //i[@class='oxd-icon bi-caret-down-fill']
+[@Leave Entitlements Button: //iclass='oxd-icon bi-caret-down-fill']
 Employee name: //input[@placeholder= 'Type for hints...' ]
 
 Leave Type- Select: //div[contains(text(), '-- Select --') ]
