@@ -36,9 +36,32 @@ Attendance
 Attendance button: //li[@class='oxd-topbar-body-nav-tab --parent']
 Drop-down menu: //ul[@class='oxd-dropdown-menu']
 
-
+Ad Employee
+//input[@ name='firstName']
+//input[@ name='middleName']
+//input[@ name='lastName']
+//div[@class='oxd-grid-2 orangehrm-full-width-grid']//input[@class='oxd-input oxd-input--active']
+//p[@class='oxd-text oxd-text--p user-form-header-text']
 
 Reports
+
+Project Reports
+
+1.Project Name
+//label[@class='oxd-label oxd-input-field-required']
+ Type for hints
+//div[@class='oxd-autocomplete-text-input oxd-autocomplete-text-input--active']
+Button View
+//button[@class='oxd-button oxd-button--medium oxd-button--secondary']
+Button Separator Horizontal
+//button[@class='oxd-icon-button']
+
+2.Employee Report
+//h5[@class='oxd-text oxd-text--h5 oxd-table-filter-title']
+Employee Name
+//label[@class='oxd-label oxd-input-field-required']
+Type for hints
+
 
 
 Project Info
