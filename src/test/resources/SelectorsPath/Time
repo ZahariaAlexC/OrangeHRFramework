@@ -1,6 +1,11 @@
 Time module: //a[@class='oxd-main-menu-item active']
 top-bar body Time/Timesheets: //div[@class='oxd-topbar-body']
 top-bar body nav Time/Timesheets: //nav[@class='oxd-topbar-body-nav']
+Timesheets button: //span[text()='Timesheets ']
+Attendance button: //span[text()='Attendance ']
+Reports button: //span[text()='Reports ']
+Project Info button: //span[text()='Project Info ']
+
 Layout Time/Timesheets: //div[@class='oxd-layout-context']
 
 Time module/Select Employee
@@ -8,7 +13,7 @@ Employee Name input data: //input[@placeholder='Type for hints...' ]
 View button: //button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']
 
 Timesheets
-Timesheets button: //span [@class='oxd-topbar-body-nav-tab-item']
+Timesheets button: //span[text()='Timesheets']
 Down button: //i[@class='oxd-icon bi-chevron-down']
 Drop-down menu: //ul[@class='oxd-dropdown-menu']
 
