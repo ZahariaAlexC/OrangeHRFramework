@@ -16,6 +16,17 @@ public class TimePage extends BasePage {
     @FindBy(xpath = "//nav[@class='oxd-topbar-body-nav']")
     private WebElement topBarBodyNavOption;
 
+    @FindBy(xpath = "//span[text()='Timesheets ']")
+    private WebElement timesheetsButton;
+
+    @FindBy(xpath = "//span[text()='Attendance ']")
+    private WebElement attendanceButton;
+
+    @FindBy(xpath = "//span[text()='Reports ']")
+    private WebElement reportsButton;
+
+    @FindBy(xpath = "//span[text()='Project Info ']")
+    private WebElement projectInfoButton;
 
     @FindBy(xpath = "//input[@placeholder='Type for hints...']")
     public WebElement typeForHintsOption;
@@ -25,10 +36,8 @@ public class TimePage extends BasePage {
 
 //    --------------------------------------------------------------------------------------
 
-// Timeshhets
+// Time/Timesheets
 
-    @FindBy(xpath = "//span[text()='Timesheets']")
-    private WebElement timesheetsButton;
 
     @FindBy(xpath = "//ul[@role='menu']")
     private WebElement dropDownMenuOption;
@@ -41,7 +50,7 @@ public class TimePage extends BasePage {
 
 //    -------------------------------------------------------------------------------------
 
-//    Timesheets/MyTimeshhet
+//    Timesheets/MyTimesheets
 
     @FindBy(xpath = "//button[@class ='oxd-icon-button orangehrm-timeperiod-icon --prev']")
     public WebElement timeperiodPrevOption;
@@ -61,15 +70,37 @@ public class TimePage extends BasePage {
     @FindBy(xpath = "//button[text()=' Submit ']")
     public WebElement submitbuttonOption;
 
+//-------------------------------------------------------------------------------------------
+//    Time/Attendance
 
+
+
+
+
+//---------------------------------------------------------------------------------------------
     //    Methods
     public void goToTimeOption() {
 
     }
+
     public void goTotopBarBodyOption() {
 
     }
+
     public void goTotopBarBodyNavOption() {
+
+    }
+
+    public void goToTimesheetsButton() {
+
+    }
+    public void goToAttendanceButton() {
+
+    }
+    public void goToReportsButton() {
+
+    }
+    public void goToPublicInfoButton() {
 
     }
     public void goToTypeForHint() {
@@ -78,21 +109,21 @@ public class TimePage extends BasePage {
     public void goToViewButton() {
 
     }
-    public void goToTimesheetsButton() {
-
-    }
     public void goToDropDownMenu() {
 
     }
     public void goToMyTimesheets() {
 
     }
+
     public void goToEmployeeTimesheets() {
 
     }
+
     public void goToTimeperiodPrev() {
 
     }
+
     public void goToTimeperiodNext() {
 
     }
@@ -100,13 +131,16 @@ public class TimePage extends BasePage {
     public void goToCalendarAutomat() {
 
     }
+
     public void goToCalendarManual() {
 
     }
-    public void goToEditButton(){
+
+    public void goToEditButton() {
 
     }
-    public void goToSubmitButton(){
+
+    public void goToSubmitButton() {
 
     }
 }
