@@ -41,7 +41,7 @@ public class TimePage extends BasePage {
 
 //    -------------------------------------------------------------------------------------
 
-//    Timesheets/MyTimeshhet
+//    Timesheets/MyTimesheets
 
     @FindBy(xpath = "//button[@class ='oxd-icon-button orangehrm-timeperiod-icon --prev']")
     public WebElement timeperiodPrevOption;
@@ -60,6 +60,7 @@ public class TimePage extends BasePage {
 
     @FindBy(xpath = "//button[text()=' Submit ']")
     public WebElement submitbuttonOption;
+
 
 
     //    Methods
