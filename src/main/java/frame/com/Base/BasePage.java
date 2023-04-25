@@ -43,6 +43,7 @@ public class BasePage {
     }
 
     protected void clear(WebElement locator) {
+        click(locator);
         if (getOperationSystem().contains("Windows")) {
             locator.sendKeys(Keys.chord(Keys.CONTROL, "a"));
         } else if (getOperationSystem().contains("Mac OS X")) {
@@ -82,5 +83,6 @@ public class BasePage {
         }
         return element;
     }
+
 }
 
