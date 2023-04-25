@@ -1,6 +1,8 @@
 package frame.com.Pages;
 
+import com.google.common.annotations.VisibleForTesting;
 import frame.com.Base.BasePage;
+import frame.com.Enums.PageLink;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -141,6 +143,18 @@ public class TimePage extends BasePage {
     }
 
     public void goToSubmitButton() {
+        PageLink pageLink = PageLink.pageURL;
+        System.out.println(pageLink.getValue());
 
     }
+
+    public static void main(String[] args) {
+
+        TimePage obj = new TimePage();
+        obj.goToSubmitButton();
+
+    }
+
+
+
 }
