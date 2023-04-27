@@ -1,0 +1,96 @@
+PIM Page
+
+PIM button://span[text() = 'PIM']
+
+Configuration drop-down list: //span[@class='oxd-topbar-body-nav-tab-item']
+
+Optional Fields: //a[normalize-space()='Optional Fields']
+
+Show Deprecated Fields
+Show Nick Name, Smoker and Military Service in Personal Details on/off button: //div[@class='oxd-layout-context']//div[2]//div[1]//div[1]//div[1]//label[1]//span[1]
+
+Country Specific Information
+Show SSN field in Personal Details on/off button: //div[@class='oxd-layout-context']//div[2]//div[1]//div[1]//div[1]//label[1]//span[1]
+Show SIN field in Personal Details on/off button: //div[@class='oxd-layout-context']//div[2]//div[1]//div[1]//div[1]//label[1]//span[1]//div[@class='oxd-layout-context']//div[2]//div[1]//div[1]//div[1]//label[1]//span[1]
+Show US Tax Exemptions Menu on/off button: //div[@class='oxd-layout-context']//div[2]//div[1]//div[1]//div[1]//label[1]//span[1]
+
+Save button: //button[@type='submit']
+
+Custom Fields: //a[normalize-space()='Custom Fields']
++Add button: //i[@class='oxd-icon bi-plus oxd-button-icon']
+Custom Field Name: //div[@role='columnheader']//i[@class='oxd-icon bi-check oxd-checkbox-input-icon']
+Delete Custom Fields button: //i[@class='oxd-icon bi-trash']
+
+Edit Custom Fields button: //i[@class='oxd-icon bi-pencil-fill']
+
+Data Import: //a[normalize-space()='Data Import']
+Download link button: //a[@class='download-link']
+Select File (Browse) button: //div[@class='oxd-file-button']
+Upload button: //button[@type='submit']
+
+Reporting Methods: //a[normalize-space()='Reporting Methods']
++Add button: //button[normalize-space()='Add']
+
+Termination Reasons: //a[normalize-space()='Termination Reasons']
++Add button: //button[normalize-space()='Add']
+
+Contract Not Renewed: //div[@role='table']//div[1]//div[1]//div[1]//div[1]//div[1]//label[1]//span[1]//i[1]
+Deceased: //div[@role='table']//div[1]//div[1]//div[1]//div[1]//div[1]//label[1]//span[1]//i[1]
+Dismissed: //div[@role='table']//div[1]//div[1]//div[1]//div[1]//div[1]//label[1]//span[1]//i[1]
+Laid-off: //div[@role='table']//div[1]//div[1]//div[1]//div[1]//div[1]//label[1]//span[1]//i[1]
+Other: //div[@role='table']//div[1]//div[1]//div[1]//div[1]//div[1]//label[1]//span[1]//i[1]
+Physically Disabled/Compensated: //div[@role='table']//div[1]//div[1]//div[1]//div[1]//div[1]//label[1]//span[1]//i[1]
+Resigned: //div[@role='table']//div[1]//div[1]//div[1]//div[1]//div[1]//label[1]//span[1]//i[1]
+Resigned - Company Requested: //div[@role='table']//div[1]//div[1]//div[1]//div[1]//div[1]//label[1]//span[1]//i[1]
+Resigned - Self Proposed: //div[@role='table']//div[1]//div[1]//div[1]//div[1]//div[1]//label[1]//span[1]//i[1]
+Retired: //div[@role='table']//div[1]//div[1]//div[1]//div[1]//div[1]//label[1]//span[1]//i[1]
+
+Emploeyy List: //a[normalize-space()='Employee List']
+
+EMPLOYEE INFORMATION
+
+Employee name text box: //div[@class ='oxd-grid-4 orangehrm-full-width-grid']//div[1]//div[1]//div[2]//div[1]//div[1]//input[1]
+Employee Id text box: //div[@class='oxd-input-group oxd-input-field-bottom-space']//div//input[@class='oxd-input oxd-input--active']
+Supervisor name text box: //div[@class = 'oxd-autocomplete-text-input oxd-autocomplete-text-input--focus']//input[@placeholder='Type for hints...']
+
+Job title drop-down list:
+1st position - Asistente de Ventas: //div[contains(text(),'Asistente de Ventas')]
+2nd position - Gerente Administrativo: //div[contains(text(),'Gerente Administrativo')]
+3rd position - Gerente General: //div[@class='orangehrm-header-container']
+
+Employment Status drop-down list:
+1st position - Freelancer: //div[contains(text(),'Freelance')]
+2nd position - Full-Time Contract: //div[@class='oxd-select-text-input'][normalize-space()='Full-Time Contract']
+3rd position - Full-Time Permanent: //div[@class='oxd-select-text-input'][normalize-space()='Full-Time Permanent']
+4th position - Full-Time Probation: //div[@class='oxd-select-text-input'][normalize-space()='Full-Time Probation']
+5th position - Full-Time Contract: //div[@class='oxd-select-text-input'][normalize-space()='Part-Time Contract']
+
+Sub Unit drop-down list:
+1st position - Orange HRM: //div[contains(text(),'OrangeHRM')]
+2nd position - Administration: //div[@class='oxd-select-text-input'][normalize-space()='Administration']
+3rd position - Engineering: //div[contains(text(),'Engineering')]
+4th position - Development://div[@class='oxd-select-text-input'][normalize-space()='Development']
+5th position - Quality Assurance: //div[@class='oxd-select-text-input'][normalize-space()='Quality Assurance']
+
+Include drop-down list:
+1st position - Current Employees Only: //div[contains(text(),'Current Employees Only')]
+2nd position - Current And Past Employees: //div[contains(text(),'Current and Past Employees')]
+3rd position - Past Employees Only: //div[contains(text(),'Past Employees Only')]
+
+Reset button text box: //button[@type = 'reset']
+Search button text box: //button[@type = 'submit']
++Add button text box: //button[normalize-space()='Add']
+
+
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
