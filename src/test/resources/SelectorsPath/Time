@@ -38,8 +38,8 @@ View button: //button[@class='oxd-button oxd-button--medium oxd-button--secondar
 
 
 Attendance
-Attendance button: //li[@class='oxd-topbar-body-nav-tab --parent']
-Drop-down menu: //ul[@class='oxd-dropdown-menu']
+Attendance button: //span[text()='Attendance ']
+
 
 Ad Employee
 //input[@ name='firstName']
@@ -71,3 +71,4 @@ Type for hints
 
 Project Info
 
+//span[normalize-space()='Timesheets']
