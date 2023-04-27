@@ -1,0 +1,73 @@
+Time module: //a[@class='oxd-main-menu-item active']
+top-bar body Time/Timesheets: //div[@class='oxd-topbar-body']
+top-bar body nav Time/Timesheets: //nav[@class='oxd-topbar-body-nav']
+Timesheets button: //span[text()='Timesheets ']
+Attendance button: //span[text()='Attendance ']
+Reports button: //span[text()='Reports ']
+Project Info button: //span[text()='Project Info ']
+
+Layout Time/Timesheets: //div[@class='oxd-layout-context']
+
+Time module/Select Employee
+Employee Name input data: //input[@placeholder='Type for hints...' ]
+View button: //button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']
+
+Timesheets
+Timesheets button: //span[text()='Timesheets']
+Down button: //i[@class='oxd-icon bi-chevron-down']
+Drop-down menu: //ul[@class='oxd-dropdown-menu']
+
+Timesheets/MyTimeshhet
+Calendar button Prev://button[@class ='oxd-icon-button orangehrm-timeperiod-icon --prev']
+Calendar button Next://button[@class ='oxd-icon-button orangehrm-timeperiod-icon --next']
+Timeperiod picker: //div[@class= 'orangehrm-timeperiod-picker']
+Calendar automat: //i[@class= 'oxd-icon bi-calendar oxd-date-input-icon']
+Calendar manual://div[@class='oxd-date-input']
+Edit button: //button[@class='oxd-button oxd-button--medium oxd-button--ghost']
+Edit Timesheet
+Name of Project: //input[@placeholder='Type for hints...' ]
+Drop-down Activity tabel: //div[@class='oxd-select-text-input']
+Select down text Arrow: //i[@class= 'oxd-icon bi-caret-down-fill oxd-select-text--arrow']
+Cancel button: //button[@class='oxd-button oxd-button--medium oxd-button--ghost']
+Reset button:
+Save button: //button[@class='oxd-button oxd-button--medium oxd-button--secondary']
+
+Timesheets/Select Employee
+Employee Name: //div[@class='oxd-autocomplete-text-input oxd-autocomplete-text-input--active']
+View button: //button[@class='oxd-button oxd-button--medium oxd-button--secondary orangehrm-left-space']
+
+
+Attendance
+Attendance button: //li[@class='oxd-topbar-body-nav-tab --parent']
+Drop-down menu: //ul[@class='oxd-dropdown-menu']
+
+Ad Employee
+//input[@ name='firstName']
+//input[@ name='middleName']
+//input[@ name='lastName']
+//div[@class='oxd-grid-2 orangehrm-full-width-grid']//input[@class='oxd-input oxd-input--active']
+//p[@class='oxd-text oxd-text--p user-form-header-text']
+
+Reports
+
+Project Reports
+
+1.Project Name
+//label[@class='oxd-label oxd-input-field-required']
+ Type for hints
+//div[@class='oxd-autocomplete-text-input oxd-autocomplete-text-input--active']
+Button View
+//button[@class='oxd-button oxd-button--medium oxd-button--secondary']
+Button Separator Horizontal
+//button[@class='oxd-icon-button']
+
+2.Employee Report
+//h5[@class='oxd-text oxd-text--h5 oxd-table-filter-title']
+Employee Name
+//label[@class='oxd-label oxd-input-field-required']
+Type for hints
+
+
+
+Project Info
+
