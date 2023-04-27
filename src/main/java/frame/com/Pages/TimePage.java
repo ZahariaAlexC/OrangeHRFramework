@@ -302,25 +302,7 @@ public class TimePage extends BasePage {
 
     }
 
-    public static void main(String[] args) {
 
-        TimePage obj = new TimePage();
-        obj.timeOption();
-
-        TimePage obj1 = new TimePage();
-        obj1.timesheetsBtn();
-
-        TimePage obj2 = new TimePage();
-        obj2.attendanceBtn();
-
-        TimePage obj3 = new TimePage();
-        obj3.reportsBtn();
-
-        TimePage obj4 = new TimePage();
-        obj4.projectInfoBtn();
-
-        TimePage obj5 = new TimePage();
-        obj5.typeForHint();
 
 
 
@@ -328,5 +310,3 @@ public class TimePage extends BasePage {
 
     }
 
-
-}
