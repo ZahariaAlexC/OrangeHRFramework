@@ -1,12 +1,11 @@
 package frame.com.Pages;
 
-import com.google.common.annotations.VisibleForTesting;
-import frame.com.Base.BasePage;
+import frame.com.Base.BaseTest;
 import frame.com.Enums.PageLink;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-public class TimePage extends BasePage {
+public class TimePage extends BaseTest {
     @FindBy(xpath = "//span[text()='Time']")
     private WebElement timeOption;
 

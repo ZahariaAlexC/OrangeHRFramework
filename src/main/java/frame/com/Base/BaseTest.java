@@ -1,6 +1,6 @@
 package frame.com.Base;
 
-import frame.com.Config.DriverFactory;
+
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -12,19 +12,19 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.time.Duration;
 import java.util.List;
 
-public class BasePage {
+public class BaseTest {
     protected WebDriver driver;
-    DriverFactory driverFactory = new DriverFactory();
     Actions action;
 
-    public BasePage() {
-        this.driver = driverFactory.getDriver();
+    public BaseTest() {
+
         PageFactory.initElements(driver, this);
         action = new Actions(driver);
     }
 
     private WebDriverWait weitElement() {
-        return new WebDriverWait(driver, Duration.ofSeconds(15));
+        WebDriverWait webDriverWait = new WebDriverWait(driver, 15);
+        return webDriverWait;
     }
 
     protected WebElement find(WebElement locator) {

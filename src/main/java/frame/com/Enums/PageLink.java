@@ -1,7 +1,7 @@
 package frame.com.Enums;
 
 public enum PageLink {
-    pageURL("https://magento.softwaretestingboard.com/"),
+    pageURL("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login"),
     whatsNewURL("https://magento.softwaretestingboard.com/what-is-new.html"),
     womenUrl("https://magento.softwaretestingboard.com/women.html"),
     menUrl("https://magento.softwaretestingboard.com/men.html"),
