@@ -11,150 +11,302 @@ public class TimePage extends BasePage {
     private WebElement timeOption;
 
 
-    @FindBy(xpath = "//div[@class='oxd-topbar-body")
-    private WebElement topBarBodyOption;
-
-
-    @FindBy(xpath = "//nav[@class='oxd-topbar-body-nav']")
-    private WebElement topBarBodyNavOption;
-
     @FindBy(xpath = "//span[text()='Timesheets ']")
-    private WebElement timesheetsButton;
+    private WebElement timesheetsBtn;
 
     @FindBy(xpath = "//span[text()='Attendance ']")
-    private WebElement attendanceButton;
+    private WebElement attendanceBtn;
 
     @FindBy(xpath = "//span[text()='Reports ']")
-    private WebElement reportsButton;
+    private WebElement reportsBtn;
 
     @FindBy(xpath = "//span[text()='Project Info ']")
-    private WebElement projectInfoButton;
+    private WebElement projectInfoBtn;
 
     @FindBy(xpath = "//input[@placeholder='Type for hints...']")
-    public WebElement typeForHintsOption;
+    private WebElement typeForHintsOption;
 
     @FindBy(xpath = "//button[text()= ' View ']")
-    public WebElement viewButtonOption;
+    private WebElement viewBtn;
 
 //    --------------------------------------------------------------------------------------
 
 // Time/Timesheets
 
 
-    @FindBy(xpath = "//ul[@role='menu']")
-    private WebElement dropDownMenuOption;
-
-    @FindBy(xpath = "//a[text() = 'My Timesheets' ]")
-    private WebElement myTimesheetsOption;
+    @FindBy(xpath = "//a[normalize-space()='My Timesheets']")
+    private WebElement myTimesheets;
 
     @FindBy(xpath = "//a[text() = 'Employee Timesheets' ]")
-    private WebElement employeeTimesheetsOption;
+    private WebElement employeeTimesheets;
 
 //    -------------------------------------------------------------------------------------
 
 //    Timesheets/MyTimesheets
 
+
+
+
+
     @FindBy(xpath = "//button[@class ='oxd-icon-button orangehrm-timeperiod-icon --prev']")
-    public WebElement timeperiodPrevOption;
+    private WebElement timeperiodPrev;
 
     @FindBy(xpath = "//button[@class ='oxd-icon-button orangehrm-timeperiod-icon --next']")
-    public WebElement timeperiodNextOption;
+    private WebElement timeperiodNext;
 
     @FindBy(xpath = "//i[@class= 'oxd-icon bi-calendar oxd-date-input-icon']")
-    public WebElement calendarAutomatOption;
+    private WebElement calendarAutomat;
 
-    @FindBy(xpath = "//div[@class='oxd-date-input']")
-    public WebElement calendarManualOption;
+    @FindBy(xpath = "//button[@class='oxd-icon-button']//i[@class='oxd-icon bi-chevron-left']")
+    private WebElement chevronLeft;
+
+    @FindBy(xpath = "//button[@class='oxd-icon-button']//i[@class='oxd-icon bi-chevron-right']")
+    private WebElement chevronRight;
+
+    @FindBy(xpath = "//div[@class='oxd-calendar-selector-month-selected']")
+    private WebElement monthSelector;
+
+    @FindBy(xpath = "//ul[@class='oxd-calendar-dropdown']")
+    private WebElement calendarDropDown;
+
+    @FindBy(xpath = "//li[normalize-space()='January']")
+    private WebElement january;
+
+    @FindBy(xpath = "//li[@class='oxd-calendar-selector-year']//p[1]")
+    private WebElement selectorYear;
+
+    @FindBy(xpath = "//div[@class='oxd-date-input-link --today']")
+    private WebElement today;
+
+    @FindBy(xpath = "//div[@class='oxd-date-input-link --clear']")
+    private WebElement clear;
+
+    @FindBy(xpath = "//div[@class='oxd-date-input-link --close']")
+    private WebElement close;
 
     @FindBy(xpath = "//button[text()=' Edit ']")
-    public WebElement editbuttonOption;
+    private WebElement editbtn;
 
-    @FindBy(xpath = "//button[text()=' Submit ']")
-    public WebElement submitbuttonOption;
+    @FindBy (xpath = "//button[normalize-space()='Submit']")
+    private WebElement submit;
+
+    @FindBy(xpath = "//input[@placeholder='Type for hints...']")
+    private WebElement projectBox;
+
+    @FindBy(xpath = "//div[@class='oxd-select-text-input']")
+    private WebElement activityTextImput;
+
+    @FindBy(xpath = "//input[@class='oxd-input oxd-input--focus']")
+    private WebElement focusInput;
+
+    @FindBy(xpath = "//tbody/tr[@class='orangehrm-timesheet-table-body-row']/td[3]/div[1]/div[2]/input[1]")
+    private WebElement tbody;
+
+    @FindBy(xpath = "//i[@class='oxd-icon bi-plus']")
+    private WebElement iconPlus;
+
+    @FindBy(xpath = "//button[normalize-space()='Cancel']")
+    private WebElement cancel;
+
+    @FindBy(xpath = "//button[normalize-space()='Reset']")
+    private WebElement reset;
+
+    @FindBy(xpath = "//button[@type='submit']")
+    private WebElement save;
 
 //-------------------------------------------------------------------------------------------
 //    Time/Attendance
 
+    @FindBy(xpath = "//a[normalize-space()='My Records']")
+    private WebElement myrecords;
 
+    @FindBy(xpath = "//a[normalize-space()='Punch In/Out']")
+    private WebElement puchinout;
 
+    @FindBy(xpath = "//a[normalize-space()='Employee Records']")
+    private WebElement employeerecords;
 
+    @FindBy(xpath = "//a[normalize-space()='Configuration']")
+    private WebElement configuration;
 
-//---------------------------------------------------------------------------------------------
+//    ---------------------------------------------------------------------------------------------
+//  Atendance->My Records
+
+    @FindBy(xpath = "//i[@class='oxd-icon bi-caret-down-fill']")
+    private WebElement downfill;
+
+    @FindBy(xpath = "//input[@placeholder='yyyy-mm-dd']")
+    private WebElement calendar;
+
+    //---------------------------------------------------------------------------------------------
     //    Methods
-    public void goToTimeOption() {
-
-    }
-
-    public void goTotopBarBodyOption() {
-
-    }
-
-    public void goTotopBarBodyNavOption() {
-
-    }
-
-    public void goToTimesheetsButton() {
-
-    }
-    public void goToAttendanceButton() {
-
-    }
-    public void goToReportsButton() {
-
-    }
-    public void goToPublicInfoButton() {
-
-    }
-    public void goToTypeForHint() {
-
-    }
-    public void goToViewButton() {
-
-    }
-    public void goToDropDownMenu() {
-
-    }
-    public void goToMyTimesheets() {
-
-    }
-
-    public void goToEmployeeTimesheets() {
-
-    }
-
-    public void goToTimeperiodPrev() {
-
-    }
-
-    public void goToTimeperiodNext() {
-
-    }
-
-    public void goToCalendarAutomat() {
-
-    }
-
-    public void goToCalendarManual() {
-
-    }
-
-    public void goToEditButton() {
-
-    }
-
-    public void goToSubmitButton() {
-        PageLink pageLink = PageLink.pageURL;
-        System.out.println(pageLink.getValue());
-
-    }
-
-    public static void main(String[] args) {
-
-        TimePage obj = new TimePage();
-        obj.goToSubmitButton();
-
+    public void timeOption() {
+        find(timeOption);
+        click(timeOption);
     }
 
 
+    public void timesheetsBtn() {
+        find(timesheetsBtn);
+        click(timesheetsBtn);
+    }
 
-}
+    public void attendanceBtn() {
+        find(attendanceBtn);
+        click(attendanceBtn);
+    }
+
+    public void reportsBtn() {
+        find(reportsBtn);
+        click(reportsBtn);
+    }
+
+    public void projectInfoBtn() {
+        find(projectInfoBtn);
+        click(projectInfoBtn);
+    }
+
+    public void typeForHint() {
+        find(projectInfoBtn);
+        clear(projectInfoBtn);
+        click(projectInfoBtn);
+    }
+
+    public void viewBtn() {
+        find(viewBtn);
+        click(viewBtn);
+    }
+
+    public void myTimesheets() {
+        find(myTimesheets);
+        click(myTimesheets);
+    }
+
+    public void employeeTimesheets() {
+
+    }
+
+    public void timeperiodPrev() {
+
+    }
+
+    public void timeperiodNext() {
+
+    }
+
+    public void calendarAutomat() {
+
+    }
+
+    public void chevronLeft() {
+
+    }
+
+    public void chevronRight() {
+
+    }
+
+    public void monthSelector() {
+
+    }
+
+    public void calendarDropDown() {
+
+    }
+
+    public void january() {
+
+    }
+
+    public void selectorYear() {
+
+    }
+
+
+    public void today() {
+
+    }
+
+    public void clear() {
+
+    }
+
+    public void close() {
+
+    }
+
+    public void editBtn() {
+
+    }
+
+    public void submit(){
+
+    }
+
+    public void projectBox() {
+
+    }
+
+    public void activityTextInput() {
+
+    }
+
+    public void focusInput() {
+
+    }
+
+    public void tBody() {
+
+    }
+
+    public void iconPlus() {
+
+    }
+
+    public void cancel() {
+
+    }
+
+    public void reset() {
+
+    }
+    public void save() {
+
+    }
+
+    public void attendancebtn() {
+
+    }
+
+    public void myrecords() {
+
+    }
+
+    public void puchinout() {
+
+    }
+
+    public void employeerecords() {
+
+    }
+
+    public void configuration() {
+
+    }
+
+    public void downfill() {
+
+    }
+
+    public void calendar (){
+
+    }
+
+
+
+
+
+
+
+    }
+
