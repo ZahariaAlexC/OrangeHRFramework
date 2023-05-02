@@ -1,4 +1,4 @@
 Username: //input[@name='username']
 Password: //input[@type='password']
 Logg In Button: //button[@type='submit']
-
+Forgot your password: //div[@class='orangehrm-login-forgot']gi

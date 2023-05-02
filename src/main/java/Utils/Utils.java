@@ -1,4 +1,4 @@
-package frame.com.Utils;
+package Utils;
 
 import java.util.Random;
 
