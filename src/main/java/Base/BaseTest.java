@@ -1,6 +1,8 @@
-package frame.com.Base;
+package Base;
 
-import frame.com.Config.DriverFactory;
+
+import Pages.BasePage;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -9,22 +11,21 @@ import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import java.time.Duration;
+
 import java.util.List;
 
-public class BasePage {
+public class BaseTest {
     protected WebDriver driver;
-    DriverFactory driverFactory = new DriverFactory();
     Actions action;
 
-    public BasePage() {
-        this.driver = driverFactory.getDriver();
+    public BaseTest() {
+        this.driver = BasePage.driver;
         PageFactory.initElements(driver, this);
         action = new Actions(driver);
     }
 
     private WebDriverWait weitElement() {
-        return new WebDriverWait(driver, Duration.ofSeconds(15));
+        return new WebDriverWait(driver, 30);
     }
 
     protected WebElement find(WebElement locator) {
@@ -82,5 +83,11 @@ public class BasePage {
         }
         return element;
     }
+    protected void movetoElement(){
+        JavascriptExecutor js = (JavascriptExecutor) driver;
+        js.executeScript("window.scrollBy(0,document.body.scrollHeight)");
+    }
+
 }
+
 

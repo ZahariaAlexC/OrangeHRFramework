@@ -1,4 +1,4 @@
-package frame.com.Enums;
+package Enums;
 
 public enum PageLink {
     pageURL("https://magento.softwaretestingboard.com/"),
